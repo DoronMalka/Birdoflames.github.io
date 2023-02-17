@@ -7,7 +7,6 @@ html{
     scroll-behavior: smooth;
 }
 .banner{
-    /*position: fixed;*/
     width: 100%;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
@@ -86,8 +85,19 @@ button:hover span{
 #home,
 #songs,
 #biography{
-    height: 1000px;
+    width: 100dvh;
+    width: 100vh;
+    height: 100dvh;
+    height: 100vh;
+    font-size: 24px;
+    margin-right: 2rem;
 }
-.section:id="home"{
-
+#profile{
+    border-radius: 10px;
+    position: absolute;
+    top: 1300px;
+    left: 400px;
+    font-size: 18px;
+    scale: 200%;
+    border-color: aquamarine;
 }
